@@ -1,0 +1,39 @@
+<html>
+<head>
+<body>
+<p id="demo"></p>
+<script>
+var x="0";
+switch(x)
+{
+case 0:
+function fibonacci(num) 
+    { 
+    if(num>10 && num<100)
+    {
+        var num1=0; 
+        var num2=1; 
+        var sum; 
+        var i=2; 
+        while (i<num)   
+        { 
+            sum=num1+num2; 
+            num1=num2; 
+            num2=sum; 
+            i+=1; 
+        } 
+        return num2;
+    } 
+    else
+    document.write("exit");
+    }
+break;
+case 1:
+document.write("exit");
+break;
+}
+document.getElementById("demo").innerHTML=fibonacci(11);
+</script>
+</body>
+</head>
+</html>
