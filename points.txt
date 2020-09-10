@@ -1,0 +1,9 @@
+IMPORTANT POINTS FOR PORTING EXPERIMENTS
+1: The dropdown menu with the respective options English and Hindi then the selection of the language should be done according to the user.
+2:The words that are choosen by the user should be displayed in the order they are actually selected.
+3:The sentence that is formed by the user should exactly match the correct sentence then only the output must be right answer.
+4:All the buttons should function as per their respective  functionality.
+5:Once you select any language and if you select again on Select language option from the dropdown menu everything which  are displayed before must  disappear.
+6:Always the words must be in jumbled order and every word should able to get selected individually.
+7:Whenever the user tries to select English or Hindi randomly, new sentences should be appearing or forming everytime that is  they should not be repeatative.
+8: The resultant sentence should always be hidden until and unless the user selects to reveal the answer that is  by clicking on Get correct sentence button.
